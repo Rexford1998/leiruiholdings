@@ -7,8 +7,8 @@ const CONTACT = {
   location: "Laguna Beach, California",
 };
 
-// Flip to true once the NGLCC LGBTBE certification is issued.
-const NGLCC_CERTIFIED = false;
+// NGLCC LGBTBE certification is issued.
+const NGLCC_CERTIFIED = true;
 const LGBTQ_LABEL = NGLCC_CERTIFIED
   ? "Certified LGBTQ+ Business Enterprise (NGLCC)"
   : "Proudly LGBTQ+-owned";
@@ -223,7 +223,7 @@ export default function Home() {
             </div>
             <div>
               <p>
-                Lei Rui Holdings LLC is an LGBTQ+-owned talent management and business consulting company based in
+                Lei Rui Holdings LLC is an NGLCC-certified, LGBTQ+-owned talent management and business consulting company based in
                 Laguna Beach, California, founded by Rexford Del Ray.
               </p>
               <p>
