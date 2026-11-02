@@ -1,9 +1,9 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Lei Rui Holdings — Creator Management & Business Services",
+  title: "Lei Rui Holdings — Talent Management & Business Services",
   description:
-    "Talent management for TikTok and social media creators, plus the business side: setup, bookkeeping, contracts and operations. Based in Laguna Beach, California.",
+    "LGBTQ+-owned talent management and business services: career management, bookings, contracts, bookkeeping and operations. Based in Laguna Beach, California.",
 };
 
 export default function RootLayout({ children }) {

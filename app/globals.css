@@ -26,6 +26,27 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 400; line-height: 1.15; mar
 
 .wrap { max-width: 1120px; margin: 0 auto; padding: 0 20px; }
 
+/* Pride banner */
+.pride-stripes {
+  height: 6px;
+  background: linear-gradient(90deg,
+    #e40303 0 16.66%, #ff8c00 16.66% 33.33%, #ffed00 33.33% 50%,
+    #008026 50% 66.66%, #24408e 66.66% 83.33%, #732982 83.33% 100%);
+}
+.pride-banner { background: var(--ink); color: var(--white); text-align: center; }
+.pride-banner p { margin: 0; padding: 9px 20px; font-size: 14px; letter-spacing: 0.02em; }
+
+.badge {
+  display: inline-flex; align-items: center; gap: 10px;
+  margin: 36px 0 0; padding: 8px 16px;
+  border: 1px solid var(--line); border-radius: 999px; background: var(--white);
+  font-size: 14px; color: var(--ink-soft);
+}
+.badge-dot {
+  width: 14px; height: 14px; border-radius: 50%;
+  background: conic-gradient(#e40303, #ff8c00, #ffed00, #008026, #24408e, #732982, #e40303);
+}
+
 /* Nav */
 .nav {
   position: sticky; top: 0; z-index: 10;
@@ -107,7 +128,8 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 400; line-height: 1.15; mar
 .form input:focus, .form select:focus, .form textarea:focus { outline: 2px solid var(--gold); border-color: transparent; }
 
 /* Footer */
-.footer { background: var(--ink); color: #cfd5e2; padding: 28px 0; font-size: 14px; }
+.footer { background: var(--ink); color: #cfd5e2; font-size: 14px; }
+.footer-inner { padding-top: 28px; padding-bottom: 28px; }
 .footer-inner { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; }
 
 /* Mobile */
